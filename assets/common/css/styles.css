@@ -74,11 +74,14 @@ body {
   margin-right: 15px;
   color: #56915d;
 }
+.dropdown-show {
+  background-color: #e84407;
+}
 
 .input {
-  background-color: rgba(255, 255, 255, 0.1);
+  background: #2a3a2d 0% 0% no-repeat padding-box;
   border-radius: 25px;
-  color: white;
+  color: #c3c3c3;
   font-size: 15px;
   height: 50px;
   padding: 10px 20px;
@@ -101,7 +104,7 @@ body {
 }
 
 .login__container {
-  padding: 60px 40px 60px 40px;
+  padding: 0px 40px 60px 40px;
   min-height: 500px;
   display: flex;
   justify-content: space-around;
@@ -131,18 +134,46 @@ body {
   text-decoration: none;
 }
 
+.register__container--form {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
 .input {
   border-left: 0px;
   border-top: 0px;
   border-right: 0px;
   font-size: 16px;
-  font-family: "Mulish", sans-serif;
-  margin-bottom: 20px;
-  padding: 20px 0px;
+  font-family: "Montserrat";
+  margin-top: 20px;
+  padding: 18px 0px;
   outline: none;
-  height: 20px;
+  height: 15px;
   width: auto;
   border: 0;
+  color: #c3c3c3;
+}
+
+.inputr {
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+  padding: 18px 0px;
+  outline: none;
+  height: 15px;
+  width: auto;
+  border: 0;
+  color: #c3c3c3;
+}
+
+.parag {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
 }
 
 .login__container--social-media div {
@@ -154,8 +185,9 @@ body {
 }
 
 .login__container--register {
-  font-size: 14px;
-  margin-top: 20px;
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
 }
 
 .login__container--register a,
@@ -170,11 +202,45 @@ p {
   margin-top: 20px;
 }
 
-.orange {
-  background-color: #f44611;
+.btn-success {
+  background-color: #56915d;
   border: none;
+  font-family: "Montserrat", Bold;
+}
+.btn-secondary {
+  background-color: red;
+  border: none;
+  margin: 0;
 }
 
-hr {
+.orange {
+  background-color: #e84407;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #476bb0;
+  border: none;
+  font-family: "Montserrat";
+  margin-top: 20px;
+}
+.hr {
   color: white;
+}
+
+.logo {
+  width: 140px;
+  display: block;
+  margin: auto;
+}
+
+.scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+p {
+  margin-bottom: 0px;
 }
