@@ -2,9 +2,44 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: "Montserrat", sans-serif;
 }
+
+.font-rajdhani {
+  font-family: "Rajdhani", sans-serif;
+}
+
 .bg-dark-green {
   background-color: #1d291f;
+}
+
+.bg-black {
+  background-color: #1f1f1f;
+}
+
+.bg-light-gray {
+  background-color: #f8f8f8;
+}
+
+.text-orange {
+  color: #e84407;
+}
+
+.text-green {
+  color: #56915d;
+}
+
+.text-gray {
+  color: #6d7177;
+}
+
+.social-action:hover {
+  color: #56915d;
+  text-decoration: none;
+}
+
+.text-light-gray {
+  color: #999999;
 }
 
 .img-gradient {
@@ -13,7 +48,32 @@ body {
   opacity: 1;
 }
 
+.bg-yellow {
+  background-color: #f5aa00;
+}
 
+.main-menu a {
+  text-decoration: none;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-menu a.menu-subitem {
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+.main-menu a.menu-item {
+  margin-top: 35px;
+}
+
+.main-menu i {
+  margin-right: 15px;
+  color: #56915d;
+}
 
 .input {
   background-color: rgba(255, 255, 255, 0.1);
@@ -24,18 +84,15 @@ body {
   padding: 10px 20px;
   width: 70%;
   outline: none;
-  
 }
 
 ::placeholder {
-
   text-align: start;
   padding-left: 20px;
   color: white;
 }
 
 .login {
- 
   display: flex;
   justify-content: start;
   flex-direction: column;
@@ -74,20 +131,18 @@ body {
   text-decoration: none;
 }
 
-
 .input {
   border-left: 0px;
   border-top: 0px;
   border-right: 0px;
   font-size: 16px;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   margin-bottom: 20px;
   padding: 20px 0px;
   outline: none;
   height: 20px;
   width: auto;
   border: 0;
-
 }
 
 .login__container--social-media div {
@@ -101,25 +156,25 @@ body {
 .login__container--register {
   font-size: 14px;
   margin-top: 20px;
-  
 }
 
-.login__container--register a, p {
+.login__container--register a,
+p {
   color: white;
   font-weight: bold;
   font-size: 16px;
 }
 
-.btn{
+.btn {
   border-radius: 25px;
   margin-top: 20px;
 }
 
-.orange{
+.orange {
   background-color: #f44611;
   border: none;
 }
 
-hr{
+hr {
   color: white;
 }
