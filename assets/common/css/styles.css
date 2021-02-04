@@ -85,12 +85,15 @@ body {
 .dropdown-show {
   background-color: #e84407;
 }
+::placeholder {
+  color: #c3c3c3 !important;
+}
 
 .input {
   background: #2a3a2d 0% 0% no-repeat padding-box;
   border-radius: 25px;
   color: #c3c3c3;
-  font-size: 15px;
+  font-size: 14px;
   height: 50px;
   padding: 10px 20px;
   width: 70%;
@@ -181,7 +184,6 @@ body {
 .parag {
   margin-top: 10px;
   font-size: 12px;
-  text-align: center;
 }
 
 .login__container--social-media div {
@@ -200,9 +202,13 @@ body {
 
 .login__container--register a,
 p {
-  color: white;
+  color: #c3c3c3;
   font-weight: bold;
   font-size: 16px;
+}
+
+.login__container--label {
+  color: #c3c3c3 !important;
 }
 
 .btn {
@@ -213,11 +219,13 @@ p {
 .btn-success {
   background-color: #56915d;
   border: none;
+  color: #c3c3c3;
   font-family: "Montserrat", Bold;
 }
 .btn-secondary {
   background-color: red;
   border: none;
+  color: #c3c3c3;
   margin: 0;
 }
 
@@ -249,10 +257,6 @@ p {
   overflow-y: hidden;
 }
 
-p {
-  margin-bottom: 0px;
-}
-
 .card {
   box-shadow: 5px 5px 15px #0000001a;
 }
@@ -267,4 +271,19 @@ p {
 
 .notif-img {
   width: 40px;
+}
+
+.parag {
+  margin-bottom: 0;
+  text-align: center;
+  color: #c3c3c3;
+  font-size: 8px;
+}
+
+.criar {
+  color: white;
+}
+
+.check {
+  color: #c3c3c3 !important;
 }
