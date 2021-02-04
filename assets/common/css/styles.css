@@ -16,12 +16,15 @@ body {
 .dropdown-show{
   background-color: #E84407;
 }
+::placeholder{
+  color :#C3C3C3 !important;
+}
 
 .input {
   background: #2A3A2D 0% 0% no-repeat padding-box;
   border-radius: 25px;
   color: #C3C3C3;
-  font-size: 15px;
+  font-size: 14px;
   height: 50px;
   padding: 10px 20px;
   width: 70%;
@@ -119,7 +122,6 @@ body {
 .parag{
   margin-top: 10px;
   font-size: 12px;
-  text-align: center;
 }
 
 .login__container--social-media div {
@@ -134,14 +136,19 @@ body {
   font-size: 12px;
   margin-top: 0px;
   text-align: center;
+
   
 }
 
 .login__container--register a, p {
-  color: white;
+  color: #C3C3C3;
   font-weight: bold;
   font-size: 16px;
 
+}
+
+.login__container--label{
+  color: #C3C3C3 !important;
 }
 
 .btn{
@@ -152,11 +159,13 @@ body {
 .btn-success{
   background-color: #56915D;
   border: none;
+  color: #C3C3C3;
   font-family: "Montserrat", Bold;
 }
 .btn-secondary{
   background-color: red;
   border: none;
+  color: #C3C3C3;
   margin: 0;
 }
 
@@ -189,6 +198,18 @@ margin:auto;
      overflow-y:hidden;
 }
 
-p{
-  margin-bottom: 0px;
+.parag{
+  margin-bottom: 0;
+  text-align: center;
+  color:#C3C3C3;
+  font-size: 8px;
+}
+
+.criar{
+  color: white;
+
+}
+
+.check{
+  color: #C3C3C3 !important;
 }
