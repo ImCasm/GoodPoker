@@ -156,7 +156,7 @@ body {
   margin-top: 20px;
 }
 
-.btn-success{
+.btn-criar{
   background-color: #56915D;
   border: none;
   color: #C3C3C3;
@@ -168,17 +168,34 @@ body {
   color: #C3C3C3;
   margin: 0;
 }
+.btn-drop{
+  background-color: #2A3A2D 0% 0% no-repeat padding-box;;
+  border: none;
+  color: #C3C3C3;
+  margin: 0;
+}
 
-.orange{
+.btn-google{
   background-color:  #E84407;
   border: none;
+  color: #C3C3C3;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
-.btn-primary{
+
+.btn-login{
+  background-color:  #56915D;
+  border: none;
+  color: #C3C3C3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.btn-facebook{
   background-color: #476BB0;
   border: none;
+  color: #C3C3C3;
   font-family: "Montserrat";
   margin-top: 20px;
 }
