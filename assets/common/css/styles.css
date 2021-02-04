@@ -17,8 +17,16 @@ body {
   background-color: #1f1f1f;
 }
 
+.bg-gray {
+  background-color: #a7a7a7;
+}
+
 .bg-light-gray {
   background-color: #f8f8f8;
+}
+
+.bg-orange {
+  background-color: #e84407;
 }
 
 .text-orange {
@@ -243,4 +251,20 @@ p {
 
 p {
   margin-bottom: 0px;
+}
+
+.card {
+  box-shadow: 5px 5px 15px #0000001a;
+}
+
+.br-15 {
+  border-radius: 15px !important;
+}
+
+.notif-shadow {
+  box-shadow: 0px 0px 15px #0000001a;
+}
+
+.notif-img {
+  width: 40px;
 }
