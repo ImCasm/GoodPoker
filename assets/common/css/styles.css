@@ -369,24 +369,8 @@ p {
   color: #c3c3c3 !important;
 }
 
-@media (min-width: 768px) {
-  .profile-menu {
-    position: absolute;
-    right: 0;
-  }
-}
-
 @media (min-width: 992px) {
-  .notif {
-    margin-top: 140px;
-  }
-
-  .column-2 {
-    padding-left: 48px;
-  }
-
-  .column-3 {
-    margin-left: 0px !important;
-    margin-right: 0px !important ;
+  .pl-2em {
+    padding-left: 2em;
   }
 }
