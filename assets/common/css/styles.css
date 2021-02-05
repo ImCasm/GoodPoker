@@ -13,8 +13,16 @@ body {
   background-color: #1d291f;
 }
 
+.bg-lang-icon {
+  background-color: #f2f2f2;
+}
+
 .bg-black {
   background-color: #1f1f1f;
+}
+
+.bg-comment-gray {
+  background-color: #edf1f7;
 }
 
 .bg-gray {
@@ -41,6 +49,26 @@ body {
   color: #6d7177;
 }
 
+.link:hover {
+  color: #56915d;
+}
+
+.border-gray {
+  border-color: #6d7177;
+}
+
+.border-orange {
+  border: 1px solid #e84407;
+}
+
+.border-orange::placeholder {
+  color: #6d7177;
+}
+
+.border-witout-focus:focus {
+  outline: none;
+}
+
 .social-action:hover {
   color: #56915d;
   text-decoration: none;
@@ -50,10 +78,47 @@ body {
   color: #999999;
 }
 
+.img-icon {
+  width: 50px;
+}
+
+.img-icon-30 {
+  width: 30px;
+}
+
+.card-video {
+  position: relative;
+}
+
+.card-video img {
+  display: block;
+}
+
+.card-video i.fa-play-circle {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.flag-icon {
+  width: 15px;
+  height: 10px;
+}
+
+.lang-icon {
+  width: 30px;
+}
+
 .img-gradient {
   background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   opacity: 1;
+}
+
+.logo {
+  width: 220px;
 }
 
 .bg-yellow {
@@ -216,8 +281,8 @@ p {
   margin-top: 20px;
 }
 
-.btn-criar{
-  background-color: #56915D;
+.btn-criar {
+  background-color: #56915d;
   border: none;
   color: #c3c3c3;
   font-family: "Montserrat", Bold;
@@ -226,31 +291,30 @@ p {
 .btn-drop{
   background-color: #2A3A2D 0% 0% no-repeat padding-box;;
   border: none;
-  color: #C3C3C3;
+  color: #c3c3c3;
   margin: 0;
 }
 
-.btn-google{
-  background-color:  #E84407;
+.btn-google {
+  background-color: #e84407;
   border: none;
-  color: #C3C3C3;
+  color: #c3c3c3;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
-
-.btn-login{
-  background-color:  #56915D;
+.btn-login {
+  background-color: #56915d;
   border: none;
-  color: #C3C3C3;
+  color: #c3c3c3;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
-.btn-facebook{
-  background-color: #476BB0;
+.btn-facebook {
+  background-color: #476bb0;
   border: none;
-  color: #C3C3C3;
+  color: #c3c3c3;
   font-family: "Montserrat";
   margin-top: 20px;
 }
@@ -532,4 +596,9 @@ margin-top: 60px;
 
 .icon-play{
   margin: 5px;
+}
+@media (min-width: 992px) {
+  .pl-2em {
+    padding-left: 2em;
+  }
 }
