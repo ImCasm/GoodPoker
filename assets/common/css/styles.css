@@ -171,11 +171,12 @@ body {
 }
 
 /* align icon */
-.left-addon .icon {
+.left-addon .icon .icon-left {
   left: 0px;
 }
-.right-addon .icon {
-  right: 0px;
+
+.hover-white:hover {
+  color: #c9c9c9;
 }
 
 /* add padding  */
@@ -242,7 +243,6 @@ body {
 .register__container--form {
   display: flex;
   flex-direction: column;
-  height: 400px;
 }
 
 .input {
@@ -273,11 +273,6 @@ body {
   width: auto;
   border: 0;
   color: #c3c3c3;
-}
-
-.parag {
-  margin-top: 10px;
-  font-size: 12px;
 }
 
 .login__container--social-media div {
@@ -380,10 +375,12 @@ p {
 }
 
 .parag {
-  margin-bottom: 0;
-  text-align: center;
+  text-align: left;
   color: #c3c3c3;
-  font-size: 7px;
+  font-size: 9px;
+  font-weight: normal;
+  padding: 0px 10px;
+  margin-bottom: 0;
 }
 
 .criar {
@@ -687,6 +684,12 @@ p {
 .dropdown a {
   font-size: 10px;
   font-weight: bolder;
+}
+
+.dropdown a.btn-drop:hover {
+  font-size: 10px;
+  font-weight: bolder;
+  color: #fff;
 }
 
 @media (min-width: 992px) {
