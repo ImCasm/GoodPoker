@@ -42,9 +42,26 @@
         <div class="text-center mb-5">
           <img class="logo" src="assets/images/logo3.png" alt="logo" />
         </div>
+
         <div class="main-menu">
-          <a class="menu-item" href="">
-            <i class="fas fa-users"></i> Comunidade GoodPoker</a
+          <a class="menu-item" href="#">
+            <i class="fas fa-users"></i>
+            <span
+              id="popover1"
+              data-toggle="popover"
+              data-html="true"
+              data-content="
+            <div class='p-2'>
+              <h6 class='text-green text-center'>Aprenda <b>com a comunidade!</b></h6>
+              <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+              <div class='row d-flex justify-content-around'>
+                <a id='btn-close-tour' class='border-gray col-5 btn btn-sm'> <span class='small'>PULAR TOUR</span> </a>
+                
+                <a id='btnToPop2' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+              </div>
+            </div>"
+              >Comunidade GoodPoker</span
+            ></a
           >
 
           <p>
@@ -56,7 +73,21 @@
               aria-expanded="false"
               aria-controls="menuCollapse"
             >
-              <i class="fas fa-address-card"></i> Sala de Estudos
+              <i class="fas fa-address-card"></i>
+              <span
+                id="popover4"
+                data-toggle="popover"
+                data-html="true"
+                data-content="
+                  <div class='p-2'>
+                    <h6 class='text-green text-center'><b>Estude e melhore</b> seu jogo!</h6>
+                    <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                    <div class='row d-flex justify-content-around'>
+                      <a id='btnToPop5' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                    </div>
+                  </div>"
+                >Sala de Estudos</span
+              >
               <i class="fas fa-caret-down ml-5 text-white"></i>
             </a>
           </p>
@@ -70,14 +101,57 @@
           </div>
 
           <a class="menu-item" href="">
-            <i class="fas fa-user-friends"></i> Meus Grupos</a
+            <i class="fas fa-user-friends"></i>
+            <span
+              id="popover5"
+              data-toggle="popover"
+              data-html="true"
+              data-content="
+                  <div class='p-2'>
+                    <h6 class='text-green text-center'><b>Crie e participe</b> de grupos de estudos</h6>
+                    <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                    <div class='row d-flex justify-content-around'>
+                      <a id='btnToPop6' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                    </div>
+                  </div>"
+              >Meus Grupos</span
+            >
+          </a>
+          <a class="menu-item" href="">
+            <i class="fas fa-file-upload"></i>
+            <span
+              id="popover2"
+              data-toggle="popover"
+              data-html="true"
+              data-content="
+            <div class='p-2'>
+              <h6 class='text-green text-center'>Importe <b>seus dados</b></h6>
+              <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+              <div class='row d-flex justify-content-around'>
+                <a id='btnToPop3' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+              </div>
+            </div>"
+              >Importação</span
+            ></a
           >
           <a class="menu-item" href="">
-            <i class="fas fa-file-upload"></i> Importação</a
-          >
-          <a class="menu-item" href="">
-            <i class="fas fa-chart-line"></i> BankRoll</a
-          >
+            <i class="fas fa-chart-line"></i>
+            <span
+              id="popover3"
+              data-toggle="popover"
+              data-html="true"
+              data-content="
+            <div class='p-2'>
+              <h6 class='text-green text-center'>Acompanhe <b>seu desempenho</b></h6>
+              <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+              <div class='row d-flex justify-content-around'>
+                <a id='btnToPop4' id='btnToPop4' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+              </div>
+            </div>"
+            >
+              BankRoll
+            </span>
+          </a>
 
           <div class="text-center mt-5">
             <button class="btn bg-yellow text-white font-weight-bold w-100">
@@ -141,7 +215,7 @@
               aria-expanded="false"
             >
               <img
-                src="https://lineupping.com/wp-content/uploads/2019/04/brazil.png"
+                src="assets/images/languages/portuguese.png"
                 class="rounded-circle lang-icon"
                 alt="image"
               />
@@ -152,7 +226,7 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item img-circle small" href="#">
                 <img
-                  src="https://lineupping.com/wp-content/uploads/2019/04/brazil.png"
+                  src="assets/images/languages/portuguese.png"
                   class="img-circle lang-icon"
                   alt=""
                 />
@@ -160,7 +234,7 @@
               >
               <a class="dropdown-item small" href="#">
                 <img
-                  src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/us-01.png"
+                  src="assets/images/languages/english.png"
                   class="img-circle lang-icon"
                   alt=""
                 />
@@ -168,7 +242,7 @@
               >
               <a class="dropdown-item small" href="#">
                 <img
-                  src="https://image.flaticon.com/icons/png/512/197/197593.png"
+                  src="assets/images/languages/spanish.png"
                   class="img-circle lang-icon"
                   alt=""
                 />
@@ -180,7 +254,22 @@
 
         <div class="pl-2em mt-5 mb-4">
           <h1 class="font-rajdhani font-weight-bold text-orange">
-            Comunidade GoodPoker
+            <span
+              id="popover6"
+              data-placement="top"
+              data-toggle="popover"
+              data-html="true"
+              data-content="
+                  <div class='p-2'>
+                    <h6 class='text-green text-center'> Tudo que a comunidade <b>compartilha!</b></h6>
+                    <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                    <div class='row d-flex justify-content-around'>
+                      <a id='btnToPop7' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                    </div>
+                  </div>"
+            >
+              Comunidade GoodPoker
+            </span>
           </h1>
         </div>
 
@@ -258,11 +347,11 @@
                           Rodrigo
                           <span class="small"
                             ><img
-                              src="assets/images/en.png"
+                              src="assets/images/flags/en.png"
                               class="flag-icon"
                               alt=""
                             />
-                            Estados
+                            Estados Unidos
                           </span>
                         </div>
                         <p class="font-weight-light text-gray mb-0">
@@ -291,11 +380,11 @@
                                   Marcos
                                   <span class="small"
                                     ><img
-                                      src="assets/images/en.png"
+                                      src="assets/images/flags/br.png"
                                       class="flag-icon"
                                       alt=""
                                     />
-                                    Estados
+                                    Brasil
                                   </span>
                                 </div>
                                 <p class="font-weight-light text-gray mb-0">
@@ -362,11 +451,11 @@
                         >
                         <span class="small"
                           ><img
-                            src="assets/images/en.png"
+                            src="assets/images/flags/en.png"
                             class="flag-icon"
                             alt=""
                           />
-                          Estados
+                          Estados Unidos
                         </span>
                       </div>
                       <div>
@@ -409,11 +498,11 @@
                             Rodrigo
                             <span class="small"
                               ><img
-                                src="assets/images/en.png"
+                                src="assets/images/flags/en.png"
                                 class="flag-icon"
                                 alt=""
                               />
-                              Estados
+                              Estados Unidos
                             </span>
                           </div>
                           <p class="font-weight-light text-gray mb-0">
@@ -444,11 +533,11 @@
                                     Marcos
                                     <span class="small"
                                       ><img
-                                        src="assets/images/en.png"
+                                        src="assets/images/flags/br.png"
                                         class="flag-icon"
                                         alt=""
                                       />
-                                      Estados
+                                      Brasil
                                     </span>
                                   </div>
                                   <p class="font-weight-light text-gray mb-0">
@@ -492,46 +581,25 @@
 
           <!-- Column 3 -->
           <div class="col-lg-3 ml-3 mr-3">
-            <!-- <div class="dropdown profile-menu">
-              <a
-                class="btn mt-0 pl-2 pr-2 pr-0 br-15 bg-gray dropdown-toggle text-white"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                x
-                aria-expanded="false"
-              >
-                <img
-                  src="assets/images/community/user2.png"
-                  class="rounded-circle lang-icon"
-                  alt="image"
-                />
-
-                <span class="small">Marcos</span>
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item text-gray" href="#">Perfil</a>
-                <a class="dropdown-item text-gray" href="#">Suporte</a>
-                <a class="dropdown-item text-gray" href="#">Tutoriais</a>
-                <a class="dropdown-item text-gray" href="#"
-                  >Avaliar Plataforma</a
-                >
-                <a class="text-gray" href="#" style="padding: 4px 24px">
-                  <div
-                    class="small btn bg-white border-secondary mt-0 rounded-pill"
-                  >
-                    <span class="small">SAIR</span>
-                  </div>
-                </a>
-              </div>
-            </div> -->
-
             <div class="">
               <h3 class="small text-gray font-weight-bold">
-                Notificações <i class="fas fa-bell"></i>
+                <span
+                  id="popover7"
+                  data-placement="top"
+                  data-toggle="popover"
+                  data-html="true"
+                  data-content="
+                  <div class='p-2'>
+                    <h6 class='text-green text-center'> Fique por dentro com as <b>Notificações</b></h6>
+                    <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                    <div class='row d-flex justify-content-around'>
+                      <a id='btnToCloseTour' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>COMECE A EXPLORAR</span></a>
+                    </div>
+                  </div>"
+                >
+                  Notificações
+                </span>
+                <i class="fas fa-bell"></i>
                 <span class="badge bg-orange badge-pill text-white p-2"
                   >3 NOVAS</span
                 >
@@ -652,212 +720,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Column 3 -->
-      <!-- <div class="column-3 col-xl-2 col-lg-2 col-md-2 pt-5 ml-3 mr-3">
-        <div class="dropdown profile-menu">
-          <a
-            class="btn mt-0 pl-2 pr-2 pr-0 br-15 bg-gray dropdown-toggle text-white"
-            href="#"
-            role="button"
-            id="dropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            x
-            aria-expanded="false"
-          >
-            <img
-              src="assets/images/community/user2.png"
-              class="rounded-circle lang-icon"
-              alt="image"
-            />
-
-            <span class="small">Marcos</span>
-          </a>
-
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item text-gray" href="#">Perfil</a>
-            <a class="dropdown-item text-gray" href="#">Suporte</a>
-            <a class="dropdown-item text-gray" href="#">Tutoriais</a>
-            <a class="dropdown-item text-gray" href="#">Avaliar Plataforma</a>
-            <a class="text-gray" href="#" style="padding: 4px 24px">
-              <div
-                class="small btn bg-white border-secondary mt-0 rounded-pill"
-              >
-                <span class="small">SAIR</span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="notif">
-          <h3 class="small text-gray font-weight-bold">
-            Notificações <i class="fas fa-bell"></i>
-            <span class="badge bg-orange badge-pill text-white p-2"
-              >3 NOVAS</span
-            >
-          </h3>
-
-          <span class="small text-gray font-weight-bold">NOVAS</span>
-
-          <section class="pb-3">
-            <div class="row bg-white br-15 notif-shadow pt-3 pb-3 mt-3">
-              <div
-                class="col-xl-3 align-self-lg-start p-2"
-                style="color: #f5aa00"
-              >
-                <i class="fas fa-star fa-2x"></i>
-              </div>
-              <div class="col-xl-9">
-                <p class="small text-gray">
-                  Você tem direito de usar a
-                  <span class="font-weight-bolder"
-                    >plataforma 1 vez grátis!</span
-                  >
-                </p>
-                <p class="mt-3 small text-gray">02.08.20 - 06:22</p>
-              </div>
-            </div>
-
-            <div class="row bg-white br-15 notif-shadow pt-3 pb-3 mt-3">
-              <div
-                class="col-xl-3 align-self-lg-start p-2"
-                style="color: #f5aa00"
-              >
-                <img
-                  src="assets/images/community/user1.png"
-                  class="rounded-circle img-icon"
-                  alt=""
-                />
-              </div>
-              <div class="col-xl-9">
-                <p class="small text-gray">
-                  <span class="font-weight-bolder">Maurício Barros</span>
-                  comentou no grupo
-                  <span class="font-weight-bolder">GoodPoker Help</span>
-                </p>
-                <p class="mt-3 small text-gray">02.08.20 - 06:22</p>
-              </div>
-            </div>
-
-            <div class="row bg-white br-15 notif-shadow pt-3 pb-3 mt-3">
-              <div
-                class="col-xl-3 align-self-lg-start p-2"
-                style="color: #f5aa00"
-              >
-                <img
-                  src="assets/images/community/user2.png"
-                  class="rounded-circle img-icon"
-                  alt=""
-                />
-              </div>
-              <div class="col-xl-9">
-                <p class="small text-gray">
-                  <span class="font-weight-bolder">Marcos</span> revisou o
-                  estudo <span class="font-weight-bolder">Torneio Novo</span>
-                </p>
-                <p class="mt-3 small text-gray">01.08.20 - 21:43</p>
-              </div>
-            </div>
-          </section>
-
-          <span class="small text-gray font-weight-bold pt-3">ANTERIORES</span>
-
-          <section class="pb-3">
-            <div class="row bg-white br-15 notif-shadow pt-3 pb-3 mt-3">
-              <div
-                class="col-xl-3 align-self-lg-start p-2"
-                style="color: #f5aa00"
-              >
-                <img
-                  src="assets/images/community/user1.png"
-                  class="rounded-circle img-icon"
-                  alt=""
-                />
-              </div>
-              <div class="col-xl-9">
-                <p class="small text-gray">
-                  <span class="font-weight-bolder">Maurício Barros</span>
-                  comentou no grupo
-                  <span class="font-weight-bolder">GoodPoker Help</span>
-                </p>
-                <p class="mt-3 small text-gray">02.08.20 - 06:22</p>
-              </div>
-            </div>
-
-            <div class="row bg-white br-15 notif-shadow pt-3 pb-3 mt-3">
-              <div
-                class="col-xl-3 align-self-lg-start p-2"
-                style="color: #f5aa00"
-              >
-                <img
-                  src="assets/images/community/user2.png"
-                  class="rounded-circle img-icon"
-                  alt=""
-                />
-              </div>
-              <div class="col-xl-9">
-                <p class="small text-gray">
-                  <span class="font-weight-bolder">Marcos</span> revisou o
-                  estudo <span class="font-weight-bolder">Torneio Novo</span>
-                </p>
-                <p class="mt-3 small text-gray">01.08.20 - 21:43</p>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div> -->
-
-      <!-- Column 4 -->
-      <!-- <div class="col-xl-2 col-lg-2 col-md-2 pt-5">
-        <div class="dropdown">
-          <a
-            class="btn mt-0 p-2 pr-0 br-15 bg-lang-icon dropdown-toggle text-gray"
-            href="#"
-            role="button"
-            id="dropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            x
-            aria-expanded="false"
-          >
-            <img
-              src="https://lineupping.com/wp-content/uploads/2019/04/brazil.png"
-              class="rounded-circle lang-icon"
-              alt="image"
-            />
-
-            <span class="small">PT-BR</span>
-          </a>
-
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item img-circle small" href="#">
-              <img
-                src="https://lineupping.com/wp-content/uploads/2019/04/brazil.png"
-                class="img-circle lang-icon"
-                alt=""
-              />
-              PORTUGUÉS</a
-            >
-            <a class="dropdown-item small" href="#">
-              <img
-                src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/us-01.png"
-                class="img-circle lang-icon"
-                alt=""
-              />
-              INGLÉS</a
-            >
-            <a class="dropdown-item small" href="#">
-              <img
-                src="https://image.flaticon.com/icons/png/512/197/197593.png"
-                class="img-circle lang-icon"
-                alt=""
-              />
-              ESPANHOL
-            </a>
-          </div>
-        </div>
-      </div> -->
     </div>
   </body>
   <!-- Jquery -->
@@ -878,6 +740,8 @@
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
     crossorigin="anonymous"
   ></script>
+  <!-- Popovers Script -->
+  <script src="assets/common/js/popovers.js"></script>
   <!-- ChartJS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
   <!-- Script Data Charts -->

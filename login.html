@@ -1,96 +1,168 @@
 <!DOCTYPE html>
 <html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/common/css/styles.css" />
+  </head>
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/common/css/styles.css" />
-</head>
-
-<body>
-  <div class="row m-0">
-    <div class="col-md-12 col-lg-4 col-sm-12 login bg-dark-green p-5">
-      <div class="dropdown show">
-        <a class="btn btn-drop dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          <img src="assets/images/br.png" class="img-circle" alt=""> PT-BR
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item img-circle" href="#">
-            <img src="assets/images/br.png" class="img-circle" alt=""> PORTUGUES</a>
-          <a class="dropdown-item" href="#">
-            <img src="assets/images/en.png" class="img-circle" alt=""> INGLES</a>
-          <a class="dropdown-item" href="#">ESPANNOL </a>
-        </div>
-      </div>
-
-      <div class="text center">
-        <img class="logo " src="assets/images/logo3.png" alt="">
-      </div>
-      <section class="login__container">
-        <form class="login__container--form">
-          <input class="input" type="text" placeholder="Email">
-          <input class="input" type="password" placeholder="Senha">
-          <button type="button" class=" btn btn-login">LOGIN</button>
-          <div class="login__container--remember-me">
-            <label class="check"><input type="checkbox" name="" id="cbox1" value="checkbos">Lembre de mim</label>
-            <a class="login__container--label" href="/">Esqueci mina senha</a>
-          </div>
-        </form>
-        <section class="login__container--form">
-          <button type="button" class="btn btn-facebook br-25 mb-20">Login com o Facebook</button>
-          <button type="button" class="btn btn-google br-25 mb-20">Login com o Google</button>
-        </section>
-        <p class="login__container--register"> Ainda não possuí uma conta?<a href="/"> Clique aqui?</a></p>
-      </section>
-    </div>
-
-    <div class="col-md-8 p-0">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+  <body>
+    <div class="row m-0">
+      <div
+        class="col-sm-12 col-md-12 col-lg-4 login bg-dark-green pl-5 pr-5 pt-5 pb-0"
+      >
+        <div class="dropdown show">
+          <a
+            class="btn btn-drop dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
             <img
-              src="https://cdn-sharing.adobecc.com/id/urn:aaid:sc:US:16e68ace-4e9a-4400-894e-1a902eaabaac;version=0?component_id=d4d74f96-58d2-4703-973c-7c8690a4ff45&api_key=CometServer1&access_token=1612409528_urn%3Aaaid%3Asc%3AUS%3A16e68ace-4e9a-4400-894e-1a902eaabaac%3Bpublic_d3e72b78b0a34d78b5329d7e36620b8e021e2a32"
-              class="d-block w-100 img-fluid" alt="#" />
+              src="assets/images/languages/portuguese.png"
+              class="img-circle lang-icon"
+              alt=""
+            />
+            PT-BR
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item img-circle small" href="#">
+              <img
+                src="assets/images/languages/portuguese.png"
+                class="img-circle lang-icon"
+                alt=""
+              />
+              PORTUGUÉS</a
+            >
+            <a class="dropdown-item small" href="#">
+              <img
+                src="assets/images/languages/english.png"
+                class="img-circle lang-icon"
+                alt=""
+              />
+              INGLÉS</a
+            >
+            <a class="dropdown-item small" href="#">
+              <img
+                src="assets/images/languages/spanish.png"
+                class="img-circle lang-icon"
+                alt=""
+              />
+              ESPANHOL
+            </a>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+
+        <div class="text center mb-4 mt-4">
+          <img class="logo" src="assets/images/logo3.png" alt="" />
+        </div>
+        <section class="login__container">
+          <form class="login__container--form">
+            <div class="inner-addon left-addon mb-4">
+              <i class="fas fa-user icon text-dark-green"></i>
+              <input
+                class="input w-100 mt-0"
+                type="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="inner-addon left-addon mb-4">
+              <i class="fas fa-key icon text-dark-green"></i>
+              <input
+                class="input w-100 mt-0"
+                type="password"
+                placeholder="Senha"
+                required
+              />
+            </div>
+            <button type="submit" class="mt-0 btn btn-login text-white">
+              LOGIN
+            </button>
+            <div
+              class="row login__container--remember-me mt-1 align-items-center"
+            >
+              <div class="col green-checkbox">
+                <input type="checkbox" id="green-checkbox" name="" value="" />
+                <label for="green-checkbox"><span>Lembre de mim</span></label>
+              </div>
+              <div class="col">
+                <a class="login__container--label" href="#"
+                  >Esqueci mina senha</a
+                >
+              </div>
+            </div>
+            <hr class="m-0" />
+          </form>
+
+          <section class="login__container--form">
+            <button type="button" class="btn btn-facebook br-25">
+              <i class="fab fa-facebook"></i>
+              Login com o Facebook
+            </button>
+            <button type="button" class="btn btn-google br-25">
+              <i class="fab fa-google"></i>
+              Login com o Google
+            </button>
+          </section>
+          <p class="login__container--register mt-5">
+            Ainda não possuí uma conta?<a href="#"> Clique aqui?</a>
+          </p>
+        </section>
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-8 p-0 promo-video-cointainer">
+        <iframe
+          class="w-100 h-100"
+          src="https://www.youtube.com/embed/HybE2w3JJys"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-  integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"
+  ></script>
 </html>
