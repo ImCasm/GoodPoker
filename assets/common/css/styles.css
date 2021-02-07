@@ -467,6 +467,7 @@ color: #E84407;
 opacity: 1;
 font-weight: bold;
 margin-top: 60px;
+font-size: 40px;
 }
 
 .container-step{
@@ -542,7 +543,7 @@ margin-top: 60px;
 .radio-styles h5{
   color:#6D7177;
   font-size: 18px;
-    font-family: "Montserrat";
+  font-family: "Montserrat";
   font-weight: bold;
   margin: 0;
 
@@ -556,7 +557,8 @@ margin-top: 60px;
 
 }
 
-/* separacion de los radios*/
+/* separacion de los 
+*/
 
 .form-check-inline {
     display: -ms-inline-flexbox;
@@ -569,12 +571,14 @@ margin-top: 60px;
 
 .content-radios{
   padding-bottom: 15px;
+ 
+  
 }
 
 .profile-btn-salvar{
     background-color: #56915D;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     width: 100px;
     height: 35px;
     font-weight: bold;
@@ -589,14 +593,173 @@ margin-top: 60px;
     font-size: 10px;
     width: 270px;
     height: 35px;
-    margin-left: -50px;
+    margin-left: 0px;
     font-weight: bold;
      font: "Montserrat"
+}
+
+/*Profile2*/
+
+.profile2-styles h5{
+  color:#6D7177;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin: 0;
+
+}
+
+.content-notific{
+  padding-bottom: 15px;
+  padding-top: 20px;
+  margin-left: -15px;
+}
+
+.profile2-btn-upgrade{
+ 
+    background-color: #F5AA00;
+    border: none;
+    color:  white;
+    font-size: 12px;
+    width: 200px;
+    height: 35px;
+    margin-left: 0px;
+    
+}
+
+.profile2-btn-premium{
+ 
+    background-color: white;
+    border-color: #56915D;
+    color: #697069;
+    font-size: 16px;
+    width: 160px;
+    height: 35px;
+    padding: 0px;
+    padding-right: 35px;
+}
+
+.btn-dolar{
+  background-color: white;
+    border-color: #6D7177;
+    color: #6D7177;
+    font-size: 18 px;
+    width: 160px;
+    height: 35px;
+    font-weight: bold;
+    padding-right: 5px;
+    font: "Montserrat"
+}
+
+/**perfil 1**/
+.profile1-img-icon{
+  width: 120px;
+ background-color: rgba(0,0,0,0.6);
+}
+.text-img{
+  top:20px
+}
+
+.input-profile1{
+  background: white;
+  border-radius: 25px;
+  border-color: #6D7177;
+  color: #c3c3c3;
+  font-size: 14px;
+  height: 35px;
+  width: 100%;
+  outline: none;
+}
+
+.input-profile1-text{
+  color: #6D7177;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 1
+}
+
+.profile1-sex h5{
+   margin-top: 10px;
+    font-size: 18px;
+  color: #6D7177;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.profile1-nacimiento{
+  margin-top: -15px;
+}
+
+.profile1-btn-1{
+  background-color: white;
+    border-color: #6D7177;
+    color: #6D7177;
+    font-size: 18 px;
+    width: 60px;
+    height: 35px;
+    font-weight: bold;
+    padding-right: 5px;
+    font: "Montserrat"
+}
+.profile1-btn-janeiro{
+  background-color: white;
+    border-color: #6D7177;
+    color: #6D7177;
+    font-size: 18 px;
+    width: 120px;
+    height: 35px;
+    font-weight: bold;
+    padding-right: 5px;
+    margin-left: 15px;
+    font: "Montserrat"
+}
+
+.profile1-btn-1980{
+  background-color: white;
+    border-color: #6D7177;
+    color: #6D7177;
+    font-size: 18 px;
+    width: 110px;
+    height: 35px;
+    font-weight: bold;
+    padding-right: 5px;
+    font: "Montserrat"
+}
+
+.profile1-btn-pais{
+  background-color: white;
+    border-color: #6D7177;
+    color: #6D7177;
+    font-size: 18 px;
+    width: 120px;
+    height: 35px;
+    font-weight: bold;
+    padding-right: 5px;
+    font: "Montserrat";
+    margin: 0;
+}
+
+.profile1-btn-salvar{
+    background-color: #56915D;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    font: "Montserrat";
+    margin-bottom: 10px;
+}
+
+.sex{
+  margin-top: -10px;
 }
 
 .icon-play{
   margin: 5px;
 }
+
+
+
 @media (min-width: 992px) {
   .pl-2em {
     padding-left: 2em;
