@@ -8,7 +8,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
 
@@ -44,13 +44,17 @@
         </div>
 
         <div class="main-menu">
-          <a class="menu-item" href="#">
-            <i class="fas fa-users"></i>
-            <span
-              id="popover1"
-              data-toggle="popover"
-              data-html="true"
-              data-content="
+          <div class="row w-100 align-items-start menu-item">
+            <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="col-10 col-md-9 col-lg-10 p-0">
+              <a class="" href="#">
+                <span
+                  id="popover1"
+                  data-toggle="popover"
+                  data-html="true"
+                  data-content="
             <div class='p-2'>
               <h6 class='text-green text-center'>Aprenda <b>com a comunidade!</b></h6>
               <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
@@ -60,25 +64,30 @@
                 <a id='btnToPop2' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
               </div>
             </div>"
-              >Comunidade GoodPoker</span
-            ></a
-          >
+                  >Comunidade GoodPoker</span
+                ></a
+              >
+            </div>
+          </div>
 
-          <p>
-            <a
-              class="menu-item"
-              data-toggle="collapse"
-              href="#menuCollapse"
-              role="button"
-              aria-expanded="false"
-              aria-controls="menuCollapse"
-            >
+          <div class="row w-100 align-items-start menu-item">
+            <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
               <i class="fas fa-address-card"></i>
-              <span
-                id="popover4"
-                data-toggle="popover"
-                data-html="true"
-                data-content="
+            </div>
+            <div class="col-10 col-md-9 col-lg-10 p-0">
+              <a
+                class=""
+                data-toggle="collapse"
+                href="#menuCollapse"
+                role="button"
+                aria-expanded="false"
+                aria-controls="menuCollapse"
+              >
+                <span
+                  id="popover4"
+                  data-toggle="popover"
+                  data-html="true"
+                  data-content="
                   <div class='p-2'>
                     <h6 class='text-green text-center'><b>Estude e melhore</b> seu jogo!</h6>
                     <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
@@ -86,11 +95,13 @@
                       <a id='btnToPop5' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
                     </div>
                   </div>"
-                >Sala de Estudos</span
-              >
-              <i class="fas fa-caret-down ml-5 text-white"></i>
-            </a>
-          </p>
+                  >Sala de Estudos</span
+                >
+                <i class="fas fa-caret-down ml-2 text-white"></i>
+              </a>
+            </div>
+          </div>
+
           <div class="collapse" id="menuCollapse">
             <div class="">
               <a class="menu-subitem" href="">Preparar</a>
@@ -100,13 +111,17 @@
             </div>
           </div>
 
-          <a class="menu-item" href="">
-            <i class="fas fa-user-friends"></i>
-            <span
-              id="popover5"
-              data-toggle="popover"
-              data-html="true"
-              data-content="
+          <div class="row w-100 align-items-start menu-item">
+            <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+              <i class="fas fa-user-friends"></i>
+            </div>
+            <div class="col-10 col-md-9 col-lg-10 p-0">
+              <a class="" href="">
+                <span
+                  id="popover5"
+                  data-toggle="popover"
+                  data-html="true"
+                  data-content="
                   <div class='p-2'>
                     <h6 class='text-green text-center'><b>Crie e participe</b> de grupos de estudos</h6>
                     <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
@@ -114,44 +129,60 @@
                       <a id='btnToPop6' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
                     </div>
                   </div>"
-              >Meus Grupos</span
-            >
-          </a>
-          <a class="menu-item" href="">
-            <i class="fas fa-file-upload"></i>
-            <span
-              id="popover2"
-              data-toggle="popover"
-              data-html="true"
-              data-content="
-            <div class='p-2'>
-              <h6 class='text-green text-center'>Importe <b>seus dados</b></h6>
-              <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
-              <div class='row d-flex justify-content-around'>
-                <a id='btnToPop3' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
-              </div>
-            </div>"
-              >Importação</span
-            ></a
-          >
-          <a class="menu-item" href="">
-            <i class="fas fa-chart-line"></i>
-            <span
-              id="popover3"
-              data-toggle="popover"
-              data-html="true"
-              data-content="
-            <div class='p-2'>
-              <h6 class='text-green text-center'>Acompanhe <b>seu desempenho</b></h6>
-              <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
-              <div class='row d-flex justify-content-around'>
-                <a id='btnToPop4' id='btnToPop4' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
-              </div>
-            </div>"
-            >
-              BankRoll
-            </span>
-          </a>
+                  >Meus Grupos</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <div class="row w-100 align-items-start menu-item">
+            <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+              <i class="fas fa-file-upload"></i>
+            </div>
+            <div class="col-10 col-md-9 col-lg-10 p-0">
+              <a class="" href="">
+                <span
+                  id="popover2"
+                  data-toggle="popover"
+                  data-html="true"
+                  data-content="
+                    <div class='p-2'>
+                      <h6 class='text-green text-center'>Importe <b>seus dados</b></h6>
+                      <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                      <div class='row d-flex justify-content-around'>
+                        <a id='btnToPop3' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                      </div>
+                    </div>"
+                  >Importação</span
+                ></a
+              >
+            </div>
+          </div>
+
+          <div class="row w-100 align-items-start menu-item">
+            <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="col-10 col-md-9 col-lg-10 p-0">
+              <a class="" href="">
+                <span
+                  id="popover3"
+                  data-toggle="popover"
+                  data-html="true"
+                  data-content="
+                    <div class='p-2'>
+                      <h6 class='text-green text-center'>Acompanhe <b>seu desempenho</b></h6>
+                      <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                      <div class='row d-flex justify-content-around'>
+                        <a id='btnToPop4' id='btnToPop4' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                      </div>
+                    </div>"
+                >
+                  BankRoll
+                </span>
+              </a>
+            </div>
+          </div>
 
           <div class="text-center mt-5">
             <button class="btn bg-yellow text-white font-weight-bold w-100">
@@ -168,7 +199,7 @@
             Olá, <span class="font-rajdhani font-weight-bold">Marcos</span>
           </h3>
 
-          <div class="col-xl-2 col-lg-3 dropdown">
+          <div class="col-xl-2 col-lg-3 dropdown mb-2">
             <a
               class="btn mt-0 br-15 bg-gray dropdown-toggle text-white"
               href="#"
@@ -253,9 +284,10 @@
         </div>
 
         <div class="pl-2em mt-5 mb-4">
-          <h1 class="font-rajdhani font-weight-bold text-orange">
+          <h1 class="text-orange">
             <span
               id="popover6"
+              class="font-rajdhani font-weight-bold"
               data-placement="top"
               data-toggle="popover"
               data-html="true"
@@ -354,14 +386,12 @@
                             Estados Unidos
                           </span>
                         </div>
-                        <p class="font-weight-light text-gray mb-0">
+                        <p class="font-weight-normal text-gray mb-0">
                           Rodrigo Lorem Ipsum dolor sit amet.
                         </p>
                       </div>
 
-                      <a href="" class="link text-gray font-weight-bold">
-                        Responder
-                      </a>
+                      <a href="" class="link text-gray"> Responder </a>
                       <!-- Responses -->
                       <div class="responses mt-2 border-left pl-3 pb-0">
                         <div class="row">
@@ -387,7 +417,7 @@
                                     Brasil
                                   </span>
                                 </div>
-                                <p class="font-weight-light text-gray mb-0">
+                                <p class="font-weight-normal text-gray mb-0">
                                   Lorem Ipsum dolor sit amet.
                                 </p>
                               </div>
@@ -505,14 +535,16 @@
                               Estados Unidos
                             </span>
                           </div>
-                          <p class="font-weight-light text-gray mb-0">
-                            Rodrigo Lorem Ipsum dolor sit amet.
+                          <p class="font-weight-normal text-gray mb-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Laboriosam dolorem, in illo cum ut at, magnam
+                            quisquam dignissimos dolore accusamus aperiam dicta
+                            quod illum quia reprehenderit officia. Quod,
+                            suscipit officiis?
                           </p>
                         </div>
 
-                        <a href="" class="link text-gray font-weight-bold">
-                          Responder
-                        </a>
+                        <a href="" class="link text-gray"> Responder </a>
                         <!-- Responses -->
                         <div class="responses mt-2 border-left pl-3 pb-0">
                           <div class="row">
@@ -540,8 +572,13 @@
                                       Brasil
                                     </span>
                                   </div>
-                                  <p class="font-weight-light text-gray mb-0">
-                                    Lorem Ipsum dolor sit amet.
+                                  <p class="font-weight-normal text-gray mb-0">
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Totam minus iusto veniam
+                                    ullam? Commodi ratione, dolore delectus sunt
+                                    voluptate illo nisi ex voluptatum quam vitae
+                                    voluptatibus, velit eaque. Voluptate,
+                                    laborum!
                                   </p>
                                 </div>
 
