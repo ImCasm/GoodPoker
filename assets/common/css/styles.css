@@ -123,6 +123,10 @@ body {
   color: #6d7177;
 }
 
+.text-black{
+  color: #000000;
+}
+
 .link:hover {
   color: #56915d;
 }
@@ -534,7 +538,7 @@ p {
   border-color: #56915d;
   color: #56915d;
   font-size: 10px;
-  width: 170px;
+  width: 175px;
   margin-right: 60px;
   font-weight: bold;
   font: "Montserrat";
@@ -733,13 +737,56 @@ p {
 }
 
 /**perfil 1**/
-.profile1-img-icon {
-  width: 120px;
-  background-color: rgba(0, 0, 0, 0.6);
+
+.profile1-img-icon:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
 }
-.text-img {
-  top: 20px;
+
+.profile1-img-icon{
+  width: 140px;
+  height: 140px;
+
+  filter: brightness(40%);
+    
 }
+
+.text-img{
+  top:20px
+}
+
+.icon-play{
+  margin: 5px;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.box-upload{
+  position: relative;
+  display: inline-block;
+}
+.text-upload{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-family: "Montserrat";
+  color: black;
+  font-weight: bold;
+}
+
+.icon-camera{
+  padding-left: 25px;
+  color: white;
+  
+}
+
 
 .input-profile1 {
   background: white;
