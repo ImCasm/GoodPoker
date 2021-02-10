@@ -738,6 +738,36 @@ p {
 
 /**perfil 1**/
 
+.photo-container::after {
+  content: "Upload Imagem";
+  color: white;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  width: 50%;
+  font-size: 15px;
+}
+
+.photo-container label {
+  cursor: pointer;
+}
+
+.photo-container label::after {
+  position: absolute;
+  content: "\f030";
+  font-size: 35px;
+  left: 38%;
+  color: white;
+  top: 15%;
+  font-weight: 900;
+  font-family: 'Font Awesome 5 Free';
+  cursor: pointer;
+}
+
+.photo-container label:hover::after {
+  color: #56915d;
+}
+
 .profile1-img-icon:after {
   content:"";
   position:absolute;
@@ -768,10 +798,12 @@ p {
   display: none;
 }
 
+
 .box-upload{
   position: relative;
   display: inline-block;
 }
+
 .text-upload{
   position: absolute;
   left: 30px;
