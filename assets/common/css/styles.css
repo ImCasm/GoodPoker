@@ -10,6 +10,14 @@ html {
   overflow-y: scroll;
 }
 
+a.dropdown-item {
+  color: #6d7177;
+}
+
+a#dropdownMenuLink:hover {
+  color: #56915d;
+}
+
 .green-checkbox input[type="checkbox"] {
   width: auto;
   opacity: 0.00000001;
@@ -658,9 +666,6 @@ p {
   font-weight: medium;
   font-size: 16px;
 }
-
-/* separacion de los 
-*/
 
 .form-check-inline {
   display: -ms-inline-flexbox;
