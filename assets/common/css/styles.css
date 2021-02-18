@@ -10,6 +10,31 @@ html {
   overflow-y: scroll;
 }
 
+
+/*  */
+
+.dropdown-menu {
+  min-width: auto;
+}
+
+.dropdown-lang-small a{
+  font-size: 10px;
+  padding: 10px;
+}
+
+.lang-icon-small {
+  width: 15px;
+  height: 15px;
+}
+
+.logo {
+  width: 160px;
+  display: block;
+  margin: auto;
+}
+
+/*  */
+
 a.dropdown-item {
   color: #6d7177;
 }
@@ -208,10 +233,6 @@ a#dropdownMenuLink:hover {
   background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   opacity: 1;
-}
-
-.logo {
-  width: 220px;
 }
 
 .bg-yellow {
@@ -431,12 +452,6 @@ p {
 }
 .hr {
   color: white;
-}
-
-.logo {
-  width: 140px;
-  display: block;
-  margin: auto;
 }
 
 .scroll {
