@@ -17,9 +17,19 @@ html {
   min-width: auto;
 }
 
-.dropdown-lang-small a{
+.dropdown-small a.dropdown-item{
   font-size: 10px;
   padding: 10px;
+  font-weight: bold;
+}
+
+.dropdown-small .dropdown-menu {
+  position: relative;
+  top: 20px;
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 0px 0px 25px 25px;
+  box-shadow: 0px 0px 10px #0000001A;
 }
 
 .lang-icon-small {
