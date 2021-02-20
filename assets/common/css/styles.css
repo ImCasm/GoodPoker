@@ -15,12 +15,14 @@ html {
 
 .dropdown-menu {
   min-width: auto;
+  overflow: hidden;
 }
 
 .dropdown-small a.dropdown-item{
   font-size: 10px;
   padding: 10px;
   font-weight: bold;
+  overflow: hidden;
 }
 
 .dropdown-small .dropdown-menu {
