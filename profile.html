@@ -162,13 +162,7 @@
             <ul class="nav progressbar" id="myTab" role="tablist">
               <li class="steper-list nav-item active" role="presentation">
                 <a class="link-steper-list active font-weight-bold" id="information-tab" data-toggle="tab"
-                  href="#information" role="tab" aria-controls="information" aria-selected="false">Informações
-                  pessoais</a>
-              </li>
-
-              <li class="steper-list nav-item active" role="presentation">
-                <a class="link-steper-list font-weight-bold" id="configuration-tab" data-toggle="tab"
-                  href="#configuration" role="tab" aria-controls="configuration" aria-selected="false">Configurações</a>
+                  href="#information" role="tab" aria-controls="information" aria-selected="false">Suas Informações</a>
               </li>
 
               <li class="steper-list nav-item active " role="presentation">
@@ -190,7 +184,7 @@
                       <img id="img1" src="assets/images/profile/profile1.png"
                         class="rounded-circle profile1-img-icon" />
                     </label>
-                    
+
                     <input id="inputFile1" type="file" accept=".png, .jpg, .jpeg" />
                   </div>
                 </div>
@@ -232,7 +226,7 @@
                 <!-- BACKEND MUST GENERATE CORRECT DATES IN SELECTS-->
                 <div class="row d-flex justify-content-lg-start">
                   <div class="col-sm-3">
-                    <select class="btn profile1-btn-janeiro" name="day" id="">
+                    <select class="btn profile1-btn-janeiro mt-0" name="day" id="">
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -267,7 +261,7 @@
                     </select>
                   </div>
                   <div class="col-sm-3">
-                    <select class="btn profile1-btn-janeiro" name="month" id="">
+                    <select class="btn profile1-btn-janeiro mt-0" name="month" id="">
                       <option value="Janeiro">Janeiro</option>
                       <option value="Fevereiro">Fevereiro</option>
                       <option value="Março">Março</option>
@@ -283,7 +277,7 @@
                     </select>
                   </div>
                   <div class="col-sm-3">
-                    <select class="btn profile1-btn-janeiro" name="year" id="">
+                    <select class="btn profile1-btn-janeiro mt-0" name="year" id="">
                       <option value="2020">2020</option>
                       <option value="2019">2019</option>
                       <option value="2018">2018</option>
@@ -388,7 +382,7 @@
                         <h5 class="input-profile1-text">PAÍS</h5>
                       </div>
 
-                      <select id="country" class="btn profile1-btn-janeiro mt-0" name="country">
+                      <select id="country" class="btn profile1-btn-janeiro mt-0 w-100" name="country">
                         <option value="Brazil">Brasil</option>
                         <option value="Albania">Albania</option>
                         <option value="Afganistan">Afghanistan</option>
@@ -709,21 +703,59 @@
 
                 <div class="row mt-2 mb-0">
                   <div class="col-8 comment-box">
-                    <h5 class="input-profile1-text">NICKNAME</h5>
+                    <h5 class="input-profile1-text font-weight-bold">NICKNAME</h5>
                     <input type="text" class="input-profile1 pl-2 border-gray" placeholder="MarcosSantos123" />
                   </div>
                 </div>
 
+                <!--notifications-->
+                <div class="content-notific">
+                  <div class="">
+                    <h5 class="input-profile1-text">Notificações</h5>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" checked name="notifications" id="yesnotif"
+                      value="Sim" />
+                    <label class="form-check-label label-styles" for="yesnotif">Sim</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="notifications" id="notnotif" value="Não" />
+                    <label class="form-check-label label-styles" for="notnotif">Não</label>
+                  </div>
+                </div>
+
+                <!--plano-->
+                <div class="profile1-styles">
+                  <h5 class="input-profile1-text">Plano</h5>
+                </div>
+                <div class="container p-0">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                      <button type="button" class="btn profile2-btn-premium font-weight-bold mt-0">
+                        Premium
+                      </button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <button type="button" class="btn profile2-btn-upgrade font-weight-bold mt-0">
+                        UPGRADE DE PLANO
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                </form>
+
                 <div class="row">
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                    <button type="button" class="btn profile1-btn-salvar font-weight-bold">
-                      SALVAR
+                  <div class="col-lg-8 col-md-6 col-sm-12">
+                    <button type="button" class="btn profile1-btn-salvar font-weight-bold pl-3 pr-5">
+                      SALVAR E AVANÇAR
                     </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="tab-pane fade" id="configuration" role="tabpanel" aria-labelledby="configuration-tab">
             <form class="">
               <div>
@@ -798,12 +830,12 @@
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" checked name="playonline" id="yesplayonline"
                     value="Sim" />
-                  <label class="form-check-label" for="yesplayonline">Sim</label>
+                  <label class="form-check-label label-styles" for="yesplayonline">Sim</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="playonline" id="notplayonline" value="No" />
-                  <label class="form-check-label" for="notplayonline">Não</label>
+                  <label class="form-check-label label-styles" for="notplayonline">Não</label>
                 </div>
               </div>
               <div class="content-radios">
@@ -812,12 +844,12 @@
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" checked type="radio" name="coaching" id="yescoaching" value="Sim" />
-                  <label class="form-check-label" for="yescoaching">Sim</label>
+                  <label class="form-check-label label-styles" for="yescoaching">Sim</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="coaching" id="notcoaching" value="Não" />
-                  <label class="form-check-label" for="notcoaching">Não</label>
+                  <label class="form-check-label label-styles" for="notcoaching">Não</label>
                 </div>
               </div>
               <div class="content-radios">
@@ -832,7 +864,7 @@
 
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="pokerschool" id="notpokerschool" value="Não" />
-                  <label class="form-check-label" for="notpokerschool">Não</label>
+                  <label class="form-check-label label-styles" for="notpokerschool">Não</label>
                 </div>
               </div>
               <div class="content-radios">
@@ -842,12 +874,12 @@
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" checked type="radio" name="jointeampoker" id="yesjointeampoker"
                     value="Sim" />
-                  <label class="form-check-label" for="yesjointeampoker">Sim</label>
+                  <label class="form-check-label label-styles" for="yesjointeampoker">Sim</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="jointeampoker" id="notjointeampoker" value="Não" />
-                  <label class="form-check-label" for="notjointeampoker">Não</label>
+                  <label class="form-check-label label-styles" for="notjointeampoker">Não</label>
                 </div>
               </div>
               <div class="content-radios">
@@ -857,12 +889,12 @@
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" checked name="havepokerteam" id="yeshavepokerteam"
                     value="Sim" />
-                  <label class="form-check-label" for="yeshavepokerteam">Sim</label>
+                  <label class="form-check-label label-styles" for="yeshavepokerteam">Sim</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="havepokerteam" id="nothavepokerteam" value="Não" />
-                  <label class="form-check-label" for="nothavepokerteam">Não</label>
+                  <label class="form-check-label label-styles" for="nothavepokerteam">Não</label>
                 </div>
               </div>
               <!--Forms-->
@@ -898,4 +930,5 @@
   integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
   integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
 </html>

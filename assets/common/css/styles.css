@@ -713,8 +713,8 @@ p {
 .label-styles {
   color: #707070;
   font-family: "Montserrat";
-  font-weight: medium;
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 13px;
 }
 
 .form-check-inline {
@@ -776,7 +776,7 @@ p {
 }
 
 .profile2-btn-premium {
-  background-color: white;
+  background-color: transparent;
   border-color: #697069;
   color: #697069;
   font-size: 16px;
@@ -883,11 +883,12 @@ p {
 
 
 .input-profile1 {
-  background: white;
+  background: transparent;
   border-radius: 25px;
   border-color: #6d7177;
-  color: #6d7177;
+  color: #6D7177;
   font-size: 14px;
+  font-weight: bold;
   height: 35px;
   width: 100%;
   outline: none;
@@ -924,7 +925,7 @@ p {
   font: "Montserrat";
 }
 .profile1-btn-janeiro {
-  background-color: white;
+  background-color: transparent;
   border-color: #6d7177;
   color: #6d7177;
   font-size: 18 px;
@@ -963,7 +964,7 @@ p {
   background-color: #56915d;
   color: white;
   font-size: 12px;
-  width: 100px;
+  width: 230px;
   height: 35px;
   font-weight: bold;
   font: "Montserrat";
