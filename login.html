@@ -1,172 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
 
-    <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    />
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/common/css/styles.css" />
-  </head>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <div class="row m-0">
-      <div
-        class="col-sm-12 col-md-12 col-lg-4 login bg-dark-green pl-5 pr-5 pt-5 pb-0"
-      >
-        <div class="dropdown dropdown-small">
-          <a
-            class="btn btn-drop dropdown-toggle font-weight-bold"
-            href="#"
-            role="button"
-            id="dropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            style="font-size: 13px;"
-          >
-            <img
-              src="assets/images/languages/portuguese.png"
-              class="img-circle lang-icon-small"
-              alt=""
-            />
-            PT-BR
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/common/css/styles.css" />
+</head>
+
+<body>
+  <div class="row m-0">
+    <div class="col-sm-12 col-md-12 col-lg-4 login bg-dark-green pl-5 pr-5 pt-5 pb-0">
+      <div class="dropdown dropdown-small">
+        <a class="btn btn-drop dropdown-toggle font-weight-bold" href="#" role="button" id="dropdownMenuLink"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 13px">
+          <img src="assets/images/languages/portuguese.png" class="img-circle lang-icon-small" alt="" />
+          PT-BR
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item img-circle small" href="#">
+            <img src="assets/images/languages/portuguese.png" class="img-circle lang-icon-small" alt="" />
+            PORTUGUÉS</a>
+          <a class="dropdown-item small" href="#">
+            <img src="assets/images/languages/english.png" class="img-circle lang-icon-small" alt="" />
+            INGLÉS</a>
+          <a class="dropdown-item small" href="#">
+            <img src="assets/images/languages/spanish.png" class="img-circle lang-icon-small" alt="" />
+            ESPANHOL
           </a>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item img-circle small" href="#">
-              <img
-                src="assets/images/languages/portuguese.png"
-                class="img-circle lang-icon-small"
-                alt=""
-              />
-              PORTUGUÉS</a
-            >
-            <a class="dropdown-item small" href="#">
-              <img
-                src="assets/images/languages/english.png"
-                class="img-circle lang-icon-small"
-                alt=""
-              />
-              INGLÉS</a
-            >
-            <a class="dropdown-item small" href="#">
-              <img
-                src="assets/images/languages/spanish.png"
-                class="img-circle lang-icon-small"
-                alt=""
-              />
-              ESPANHOL
-            </a>
+        </div>
+      </div>
+
+      <div class="text center mb-4 mt-5">
+        <img class="logo" src="assets/images/logo.png" alt="" />
+      </div>
+      <section class="login__container ml-4 mr-4">
+        <form class="login__container--form">
+          <div class="inner-addon left-addon mb-4">
+            <i class="fas fa-user icon text-dark-green"></i>
+            <input class="input w-100 mt-0" type="email" placeholder="Email" required autocomplete="on" />
+          </div>
+          <div class="inner-addon left-addon mb-4">
+            <i class="fas fa-key icon text-dark-green"></i>
+            <input class="input w-100 mt-0" type="password" placeholder="Senha" required />
+          </div>
+          <button type="submit" class="mt-0 btn btn-login text-white font-weight-bold">
+            LOGIN
+          </button>
+          <div class="row login__container--remember-me mt-1 align-items-center mt-3">
+            <div class="col green-checkbox">
+              <input type="checkbox" id="green-checkbox" name="" value="" />
+              <label for="green-checkbox"><span>Lembre de mim</span></label>
+            </div>
+            <div class="col">
+              <a class="login__container--label" href="#">Esqueci minha senha</a>
+            </div>
+          </div>
+          <hr style="background-color: #2a3a2d" />
+        </form>
+
+        <section class="login__container--form">
+          <button type="button" class="btn btn-facebook br-25">
+            <i class="fab fa-facebook"></i>
+            Login com o Facebook
+          </button>
+          <button type="button" class="btn btn-google br-25">
+            <i class="fab fa-google"></i>
+            Login com o Google
+          </button>
+        </section>
+        <p class="login__container--register mt-5 font-weight-light">
+          Ainda não possuí uma conta?<a href="#"> Clique aqui?</a>
+        </p>
+      </section>
+    </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-8 p-0">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active carrousel-img">
+            <img
+              src="https://cnet4.cbsistatic.com/img/bj70D7E85FZyBULi2alp4d6v2iU=/940x0/2019/07/11/c826250f-3d4c-4baf-a029-554bf3fa687b/gettyimages-183778319.jpg"
+              class="d-block w-100 vh-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cnet4.cbsistatic.com/img/bj70D7E85FZyBULi2alp4d6v2iU=/940x0/2019/07/11/c826250f-3d4c-4baf-a029-554bf3fa687b/gettyimages-183778319.jpg"
+              class="d-block w-100 vh-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.nosoloios.com/imagenes/consejos-para-jugar-al-poker-online.jpg"
+              class="d-block w-100 vh-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <iframe class="w-100 vh-100" src="https://www.youtube.com/embed/HybE2w3JJys" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
           </div>
         </div>
-
-        <div class="text center mb-4 mt-5">
-          <img class="logo" src="assets/images/logo.png" alt="" />
-        </div>
-        <section class="login__container">
-          <form class="login__container--form">
-            <div class="inner-addon left-addon mb-4">
-              <i class="fas fa-user icon text-dark-green"></i>
-              <input
-                class="input w-100 mt-0"
-                type="email"
-                placeholder="Email"
-                required
-              />
-            </div>
-            <div class="inner-addon left-addon mb-4">
-              <i class="fas fa-key icon text-dark-green"></i>
-              <input
-                class="input w-100 mt-0"
-                type="password"
-                placeholder="Senha"
-                required
-              />
-            </div>
-            <button type="submit" class="mt-0 btn btn-login text-white">
-              LOGIN
-            </button>
-            <div
-              class="row login__container--remember-me mt-1 align-items-center mt-3"
-            >
-              <div class="col green-checkbox">
-                <input type="checkbox" id="green-checkbox" name="" value="" />
-                <label for="green-checkbox"><span>Lembre de mim</span></label>
-              </div>
-              <div class="col">
-                <a class="login__container--label" href="#"
-                  >Esqueci minha senha</a
-                >
-              </div>
-            </div>
-            <hr style="background-color: #2a3a2d" />
-          </form>
-
-          <section class="login__container--form">
-            <button type="button" class="btn btn-facebook br-25">
-              <i class="fab fa-facebook"></i>
-              Login com o Facebook
-            </button>
-            <button type="button" class="btn btn-google br-25">
-              <i class="fab fa-google"></i>
-              Login com o Google
-            </button>
-          </section>
-          <p class="login__container--register mt-5 font-weight-light">
-            Ainda não possuí uma conta?<a href="#"> Clique aqui?</a>
-          </p>
-        </section>
-      </div>
-
-      <div class="col-sm-12 col-md-12 col-lg-8 p-0 promo-video-cointainer">
-        <iframe
-          class="w-100 h-100"
-          src="https://www.youtube.com/embed/HybE2w3JJys"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 
-  <!-- Bootstrap includes -->
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-    crossorigin="anonymous"
-  ></script>
+<!-- Bootstrap includes -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+  integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
 </html>

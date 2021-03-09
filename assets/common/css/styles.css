@@ -959,6 +959,21 @@ p {
   margin: 5px;
 }
 
+/* Carrousel Login and Register */
+
+.carousel-indicators li {
+  margin-right: 20px !important;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+}
+
+.carrousel-img {
+   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50,50,50,0.8)), to(rgba(80,80,80,0.2)), color-stop(.5,#333333));
+}
+
+/*  */
+
 @media (min-width: 992px) {
   .pl-2em {
     padding-left: 3em;
