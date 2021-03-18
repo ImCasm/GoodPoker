@@ -30,76 +30,167 @@
 <body class="bg-light-gray">
   <div class="row m-0">
     <!-- Column 1 -->
-    <div class="col-md-3 min-vh-100 bg-dark-green p-5">
-      <div class="text-center mb-5">
-        <img class="logo" src="assets/images/logo.png" alt="logo" />
-      </div>
-      <div class="main-menu p-0 m-0">
-        <div class="row w-100 align-items-start menu-item">
-          <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
-            <i class="fas fa-users"></i>
-          </div>
-          <div class="col-10 col-md-9 col-lg-10 p-0">
-            <a class="" href=""> Comunidade GoodPoker</a>
-          </div>
-        </div>
+    <div  class="menu-container col-xl-3 col-lg-3 col-md-3 bg-dark-green p-5">
 
-        <div class="row w-100 align-items-start menu-item">
-          <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
-            <i class="fas fa-address-card"></i>
-          </div>
-          <div class="col-10 col-md-9 col-lg-10 p-0">
-            <a class="m-0" data-toggle="collapse" href="#menuCollapse" role="button" aria-expanded="false"
-              aria-controls="menuCollapse">
-              Sala de Estudos
-              <i class="fas fa-caret-down ml-2 text-white"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="collapse" id="menuCollapse">
-          <div class="">
-            <a class="menu-subitem" href="">Preparar</a>
-            <a class="menu-subitem" href="">Liberar</a>
-            <a class="menu-subitem" href="">Estudos</a>
-            <a class="menu-subitem" href="">Biblioteca</a>
-          </div>
-        </div>
-
-        <div class="row w-100 align-items-start menu-item">
-          <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
-            <i class="fas fa-user-friends"></i>
-          </div>
-          <div class="col-10 col-md-9 col-lg-10 p-0">
-            <a class="" href=""> Meus Grupos</a>
-          </div>
-        </div>
-
-        <div class="row w-100 align-items-start menu-item">
-          <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
-            <i class="fas fa-file-upload"></i>
-          </div>
-          <div class="col-10 col-md-9 col-lg-10 p-0">
-            <a class="" href=""> Importação</a>
-          </div>
-        </div>
-
-        <div class="row w-100 align-items-start menu-item">
-          <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
-            <i class="fas fa-chart-line"></i>
-          </div>
-          <div class="col-10 col-md-9 col-lg-10 p-0">
-            <a class="" href=""> BankRoll</a>
-          </div>
-        </div>
-
-        <div class="text-center mt-5">
-          <button class="btn bg-yellow text-white font-weight-bold w-100">
-            <i class="fas fa-star text-white"></i> Updgrade de Plano
+        <nav class="navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-        </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="text-center mb-5">
+              <img class="logo" src="assets/images/logo.png" alt="logo" />
+            </div>
+
+            <div class="main-menu">
+            <div class="row w-100 align-items-start menu-item">
+              <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="col-10 col-md-9 col-lg-10 p-0">
+                <a class="" href="#">
+                  <span
+                    id="popover1"
+                    data-toggle="popover"
+                    data-html="true"
+                    data-content="
+              <div class='p-2'>
+                <h6 class='text-green text-center'>Aprenda <b>com a comunidade!</b></h6>
+                <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                <div class='row d-flex justify-content-around'>
+                  <a id='btn-close-tour' class='border-gray col-5 btn btn-sm'> <span class='small'>PULAR TOUR</span> </a>
+                  
+                  <a id='btnToPop2' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                </div>
+              </div>"
+                    >Comunidade GoodPoker</span
+                  ></a
+                >
+              </div>
+            </div>
+
+            <div class="row w-100 align-items-start menu-item">
+              <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+                <i class="fas fa-address-card"></i>
+              </div>
+              <div class="col-10 col-md-9 col-lg-10 p-0">
+                <a
+                  class=""
+                  data-toggle="collapse"
+                  href="#menuCollapse"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="menuCollapse"
+                >
+                  <span
+                    id="popover4"
+                    data-toggle="popover"
+                    data-html="true"
+                    data-content="
+                    <div class='p-2'>
+                      <h6 class='text-green text-center'><b>Estude e melhore</b> seu jogo!</h6>
+                      <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                      <div class='row d-flex justify-content-around'>
+                        <a id='btnToPop5' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                      </div>
+                    </div>"
+                    >Sala de Estudos</span
+                  >
+                  <i class="fas fa-caret-down ml-2 text-white"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="collapse" id="menuCollapse">
+              <div class="">
+                <a class="menu-subitem" href="">Preparar</a>
+                <a class="menu-subitem" href="">Liberar</a>
+                <a class="menu-subitem" href="">Estudos</a>
+                <a class="menu-subitem" href="">Biblioteca</a>
+              </div>
+            </div>
+
+            <div class="row w-100 align-items-start menu-item">
+              <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+                <i class="fas fa-user-friends"></i>
+              </div>
+              <div class="col-10 col-md-9 col-lg-10 p-0">
+                <a class="" href="">
+                  <span
+                    id="popover5"
+                    data-toggle="popover"
+                    data-html="true"
+                    data-content="
+                    <div class='p-2'>
+                      <h6 class='text-green text-center'><b>Crie e participe</b> de grupos de estudos</h6>
+                      <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                      <div class='row d-flex justify-content-around'>
+                        <a id='btnToPop6' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                      </div>
+                    </div>"
+                    >Meus Grupos</span
+                  >
+                </a>
+              </div>
+            </div>
+
+            <div class="row w-100 align-items-start menu-item">
+              <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+                <i class="fas fa-file-upload"></i>
+              </div>
+              <div class="col-10 col-md-9 col-lg-10 p-0">
+                <a class="" href="">
+                  <span
+                    id="popover2"
+                    data-toggle="popover"
+                    data-html="true"
+                    data-content="
+                      <div class='p-2'>
+                        <h6 class='text-green text-center'>Importe <b>seus dados</b></h6>
+                        <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                        <div class='row d-flex justify-content-around'>
+                          <a id='btnToPop3' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                        </div>
+                      </div>"
+                    >Importação</span
+                  ></a
+                >
+              </div>
+            </div>
+
+            <div class="row w-100 align-items-start menu-item">
+              <div class="col-2 col-md-3 col-lg-2 m-0 p-0">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="col-10 col-md-9 col-lg-10 p-0">
+                <a class="" href="">
+                  <span
+                    id="popover3"
+                    data-toggle="popover"
+                    data-html="true"
+                    data-content="
+                      <div class='p-2'>
+                        <h6 class='text-green text-center'>Acompanhe <b>seu desempenho</b></h6>
+                        <span class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero et risus mollis congue. Sed ac augue at leo laoreet .</span>
+                        <div class='row d-flex justify-content-around'>
+                          <a id='btnToPop4' id='btnToPop4' class='-5 btn btn-sm bg-light-green'><span class='small text-white'>PRÓXIMO</span></a>
+                        </div>
+                      </div>"
+                  >
+                    BankRoll
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="text-center mt-5">
+              <button class="btn bg-yellow text-white font-weight-bold w-100">
+                <i class="fas fa-star text-white"></i> Updgrade de Plano
+              </button>
+            </div>
+          </div>
+          </div>
+        </nav>
       </div>
-    </div>
 
     <!-- Column 2 -->
     <div class="col-md-8 pt-5 pl-2em pb-3">

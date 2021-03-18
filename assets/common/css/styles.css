@@ -43,7 +43,7 @@ input {
   position: absolute;
   font-size: 12px !important;
   right: 10px;
-  line-height: 33px;
+  line-height: 30px;
 }
 
 .btn-password-generate:hover {
@@ -57,7 +57,7 @@ input {
 /*  */
 
 .btn {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 body > div.row {
@@ -120,10 +120,10 @@ a#dropdownMenuLink:hover {
   content: "";
   position: absolute;
   left: 0;
-  top: 0;
+  top: 5px;
   margin: 4px;
-  width: 22px;
-  height: 22px;
+  width: 15px;
+  height: 15px;
   transition: transform 0.28s ease;
   border-radius: 3px;
   border: 2px solid #7bbe72;
@@ -140,8 +140,8 @@ a#dropdownMenuLink:hover {
   transition: transform ease 0.25s;
   will-change: transform;
   position: absolute;
-  top: 12px;
-  left: 10px;
+  top: 7px;
+  left: 7px;
 }
 .green-checkbox input[type="checkbox"]:checked ~ label::before {
   color: #7bbe72;
@@ -155,7 +155,7 @@ a#dropdownMenuLink:hover {
 .green-checkbox label {
   min-height: 34px;
   display: block;
-  padding-left: 40px;
+  padding-left: 26px;
   margin-bottom: 0;
   font-weight: normal;
   cursor: pointer;
@@ -337,6 +337,7 @@ a#dropdownMenuLink:hover {
   position: absolute;
   padding: 10px;
   pointer-events: none;
+  top: -3px;
 }
 
 /* align icon */
@@ -384,6 +385,10 @@ a#dropdownMenuLink:hover {
 }
 
 .login__container {
+  width: 65%;
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .login__container--form {
@@ -422,7 +427,7 @@ a#dropdownMenuLink:hover {
   font-size: 12px;
   font-family: "Montserrat";
   margin-top: 20px;
-  padding: 18px 0px;
+  padding: 15px 0px;
   outline: none;
   height: 15px;
   width: auto;
@@ -463,7 +468,7 @@ a#dropdownMenuLink:hover {
 p {
   color: #c3c3c3;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .login__container--label {
@@ -495,7 +500,7 @@ p {
   border: none;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .btn-login {
@@ -503,15 +508,16 @@ p {
   border: none;
   color: #c3c3c3;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .btn-facebook {
   background-color: #476bb0;
   border: none;
   color: #fff;
+  font-weight: bold;
   font-family: "Montserrat";
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .hr {
   color: white;
@@ -541,7 +547,7 @@ p {
 .parag {
   text-align: left;
   color: #c3c3c3;
-  font-size: 9px;
+  font-size: 8px;
   font-weight: normal;
   padding: 0px 10px;
   margin-bottom: 0;
@@ -549,6 +555,8 @@ p {
 
 .criar {
   color: white;
+  font-size: 1rem;
+  margin-bottom: 15px;
 }
 
 .check {
@@ -1027,6 +1035,10 @@ p {
   .ml-2em {
     margin-left: 2em;
   }
+
+  .navbar-expand-lg .navbar-collapse {
+    display: block !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1034,5 +1046,9 @@ p {
     position: absolute;
     font-size: 7px;
     bottom: auto !important;
+  }
+
+  .menu-container {
+    padding: 1rem 2rem !important;
   }
 }
