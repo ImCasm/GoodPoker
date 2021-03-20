@@ -750,7 +750,13 @@ p {
   color: #707070;
   font-family: "Montserrat";
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
+  margin-bottom: ;
+}
+
+.label-styles h5 {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .form-check-inline {
@@ -760,6 +766,10 @@ p {
   align-items: center;
   padding-left: 0;
   margin-right: 1.9rem;
+}
+
+.form-check-input .form-check-label{
+  font-size: 2rem !important;
 }
 
 .content-radios {
@@ -815,7 +825,7 @@ p {
   background-color: transparent;
   border-color: #697069;
   color: #697069;
-  font-size: 16px;
+  font-size: 12px;
   width: 160px;
   height: 35px;
   padding: 0px;
